@@ -5,7 +5,7 @@
 node *head;
 
 void insertAfterHead(int data){
-    node *newNode = 	createNode(data);
+    node *newNode = createNode(data);
     node *temp = head;
 
     newNode -> prev = temp;
